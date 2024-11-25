@@ -5,7 +5,7 @@
 >**Objetivo**: Plantear un algoritmo que obtenga los números primos hasta un número n, empleando pseudocódigo y diagramas de flujo.
 
 **Desarrollo**: Creamos una lista con todos los números naturales hasta un número n. Cualquier número k de la lista es primo si es divisible únicamente por 1 y por sí mismo, en otras palabras, si dividimos k entre cada uno de los números naturales menores a él (incluyéndolo), debemos obtener que el residuo de la división es 0 únicamente cuando los divisores son 1 y k.
-Para efectos prácticos, si planteamos esta misma división sin incluir como divisores a 1 y k, entonces debemos obtener que k es primo si para ningún i < k se cumple: k / i != 0.
+Para efectos prácticos, si planteamos esta misma división sin incluir como divisores a 1 y k, entonces debemos obtener que k es primo si para todo i < k se cumple: k / i != 0.
 
 El planteamiento en pseudocódigo se desarrolla de la siguiente forma:
 ```pseudocode
